@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat";
+}
+header {
+    background-color: black;
+    color: aliceblue;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    transition: 0.33s;
+}
+.a_h_v:hover {
+    color: rgb(187, 187, 187);
+    transition: 0.33s;
+}
+.main_n {
+    font-size: 28px;
+    color: aliceblue;
+}
+.main_a {
+    font-size: 28px;
+    color: rgb(150, 150, 150);
+}
+.main {
+    font-size: 28px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.img {
+    height: 70px;
+    width: 70px;
+}
+.img__cart {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 83px;
+}
+.about__text {
+    width: 91px;
+    height: 91px;
+    margin-top: 67px;
+}
+.content__p_h {
+
+}
+.coffee__work {
+    width: 619px;
+    border-radius: 50px;
+    box-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.40);
+}
+.High__quality {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 86px;
+}
+.content__p_h p {
+    width: 665px;
+    font-size: 32px;
+}
+.content__p_h h1 {
+    font-size: 38px;
+}
+.left__about {
+    margin-right: 220px;
+}
+footer {
+    display: flex;
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    color: aliceblue;
+}
+.container {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container__logo_name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.container__logo {
+    height: 200px;
+    width: 200px;
+}
+.container__name {
+    font-size: 40px;
+    margin-top: 17px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.container__f_text {
+    text-align: center;
+    margin-top: 106px;
+    width: 334px;
+    height: 87px;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    left: 793px;
+}
+.container__social_netw {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 1818px;
+    margin-top: 40px;
+}
+.social__netw {
+    width: 69px;
+    height: 69px;
+    margin-bottom: 8px;
+}
